@@ -1,0 +1,13 @@
+#MAP REDUCE
+
+# db.disponibilite.aggregate([
+#     {
+#         $group: {
+#             _id: "$station_type",  // Groupement par type de station
+#             totalBikesAvailable: { $sum: "$numbikesavailable" }  // Somme des vélos disponibles
+#         }
+#     },
+#     {
+#         $sort: { totalBikesAvailable: -1 }  // Tri décroissant par le nombre total de vélos disponibles
+#     }
+# ]);
